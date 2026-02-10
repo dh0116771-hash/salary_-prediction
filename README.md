@@ -1,62 +1,75 @@
-# Salary Prediction using Regression Models
+# 💼 Salary Prediction Using Regression
 
 ## 📌 Project Overview
-This project focuses on predicting **salary** based on given features using **Machine Learning regression techniques**.  
-It covers the complete ML pipeline including data collection, exploration, cleaning, model building, and evaluation.
+This project focuses on predicting **salary based on experience** using **Machine Learning regression techniques**.  
+It walks through the complete ML pipeline — from data collection to model evaluation — using Python.
 
-The project is implemented using **Python** and popular data science libraries.
-
----
-
-## 🗂️ Project Structure
-The notebook follows these main steps:
-
-1. **Data Collection**
-2. **Data Exploration**
-3. **Exploratory Data Analysis (EDA)**
-4. **Data Cleaning**
-5. **Regression Techniques**
-6. **Model Building**
-7. **Model Evaluation**
-8. **Polynomial Regression**
-9. **Lasso Regression**
+The goal is to understand how different regression models perform and how well they can predict salaries from real-world data.
 
 ---
 
-## 📊 Dataset
-- Dataset used: `salary_prediction_data.csv`
-- The dataset is loaded using **Pandas**
-- Contains features related to salary prediction
+## 🧠 Concepts Covered
+- Data Collection
+- Data Exploration
+- Exploratory Data Analysis (EDA)
+- Data Cleaning
+- Linear Regression
+- Polynomial Regression
+- Model Training
+- Model Evaluation
 
-> ⚠️ Note: Dataset path may need to be updated if running locally.
+---
+
+## 🗂️ Dataset
+- **Dataset Name:** `salary_prediction_data.csv`
+- **Features:**  
+  - Experience (Independent Variable)  
+  - Salary (Dependent Variable)
 
 ---
 
 ## 🛠️ Technologies & Libraries Used
-- Python 🐍
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
+- **Python**
+- **Pandas** – data manipulation  
+- **NumPy** – numerical operations  
+- **Matplotlib & Seaborn** – data visualization  
+- **Scikit-learn** – model building & evaluation  
 
 ---
 
-## 📈 Models Implemented
+## 🔍 Project Workflow
+
+### 1️⃣ Data Collection
+The dataset is loaded using Pandas and basic inspection is done.
+
+### 2️⃣ Data Exploration
+- Checking dataset shape
+- Viewing statistical summary
+- Understanding feature relationships
+
+### 3️⃣ Exploratory Data Analysis (EDA)
+- Data visualization
+- Relationship between experience and salary
+- Detecting patterns and trends
+
+### 4️⃣ Data Cleaning
+- Handling missing values
+- Preparing data for modeling
+
+### 5️⃣ Regression Models
 - **Linear Regression**
 - **Polynomial Regression**
-- **Lasso Regression**
 
-Each model is trained and evaluated to compare performance.
+### 6️⃣ Model Evaluation
+- Performance comparison
+- Accuracy and prediction analysis
 
 ---
 
-## 📉 Model Evaluation
-Models are evaluated using appropriate regression metrics such as:
-- Mean Squared Error (MSE)
-- R² Score
-
-Visualizations are also used to understand model performance.
+## 📊 Results
+- Linear Regression provides a simple baseline model
+- Polynomial Regression captures non-linear relationships better
+- Model performance is evaluated and compared visually and numerically
 
 ---
 
